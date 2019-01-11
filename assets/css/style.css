@@ -9,7 +9,23 @@ body {
     width: 100%;
     position: fixed;
     background: #343537;
-    z-index: 0;
+    z-index: -10;
+    top: 0;
+    left: 0;
+}
+
+
+.container {
+    z-index: 100;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: none;
+  }
+
+nav {
+    background-color: #93B7BE;
 }
 
 .modal {

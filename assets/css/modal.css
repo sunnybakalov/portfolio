@@ -110,8 +110,8 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    border: 1.5px solid #F1BF98;
-    outline: 1.5px #F1BF98;
+    border: 1.5px solid rgb(232, 150, 88);
+    outline: 1.5px rgb(232, 150, 88);
   }
   .modal-body input::placeholder {
     color: #fff;
@@ -136,8 +136,8 @@
     margin-right: auto;
     max-width: 100%;
     margin-bottom: 25px;
-    border: 1.5px solid #F1BF98;
-    outline: 1.5px #F1BF98;
+    border: 1.5px solid rgb(232, 150, 88);
+    outline: 1.5px rgb(232, 150, 88);
   }
   .modal-body textarea::placeholder {
     color: #fff;

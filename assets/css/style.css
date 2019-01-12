@@ -1,42 +1,45 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
 #particles-js {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    background: #343537;
-    z-index: -10;
-    top: 0;
-    left: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background: #343537;
+  z-index: -10;
+  top: 0;
+  left: 0;
 }
 
-
 .container {
-    z-index: 100;
-    position: relative;
+  z-index: 100;
+  position: relative;
 }
 
 a:hover {
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
 
 .navbar {
-    margin-bottom: 0;
-    background-color: rgba(127, 184, 201, .5);
-    z-index: 9999;
-    border: 0;
-    font-size: 140% !important;
-    letter-spacing: 4px;
-    border-radius: 0;
+  margin-bottom: 0;
+  background-color: rgba(127, 184, 201, 0.5);
+  z-index: 9999;
+  border: 0;
+  font-size: 140%;
+  letter-spacing: 4px;
+  border-radius: 0;
 }
 
 .navbar-header,
 #textbox {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+h1 {
+  color: #f1bf98;
 }
 
 .navbar,
@@ -44,52 +47,52 @@ h3,
 h2,
 #textbox,
 .card-body {
-    font-family: Montserrat, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .navbar li a {
-    color: #fff !important;
+  color: #fff !important;
 }
 .navbar-nav li a:hover {
-    color: #F1BF98 !important;
-    background-color: #fff !important;
+  color: #f1bf98 !important;
+  background-color: #fff !important;
 }
 
 .navbar-right {
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h3 {
-    color: #fff;
+  color: #fff;
 }
 
 h2 {
-    color: #93B7BE;
+  color: #93b7be;
 }
 
 .fab {
-    font-size: 160%;
+  font-size: 160%;
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.379);
-    width: 80%;
-    margin-top: 5%;
-    padding: 3%;
-    margin-bottom: 20%;
+  background-color: rgba(255, 255, 255, 0.379);
+  width: 80%;
+  margin-top: 5%;
+  padding: 3%;
+  margin-bottom: 20%;
 }
-  
+
 #content {
-    border-top: 2px solid #93B7BE;
-    padding-top: 15px;
+  border-top: 2px solid #93b7be;
+  padding-top: 15px;
 }
-  
+
 #bigMessage {
-    height: 200px;
+  height: 200px;
 }
 
 #theCard {
@@ -101,24 +104,26 @@ h2 {
 }
 
 .card-body {
-    background-color: rgba(127, 184, 201, .5);
+  background-color: rgba(127, 184, 201, 0.5);
+  font-weight: bolder;
 }
 
 #button {
-    background-color: #93B7BE;
-    outline: none;
-    border: none;
-    opacity: 0.8;
+  background-color: #93b7be;
+  outline: none;
+  border: none;
+  opacity: 0.9;
+  font-weight: bold;
 }
 
 #button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    opacity: 1;
-    color: #F1BF98;
-    background-color: #fff;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  opacity: 1;
+  color: #f1bf98;
+  background-color: #fff;
 }
 
-
 .modal {
-    z-index: 10000;
+  z-index: 10000;
 }

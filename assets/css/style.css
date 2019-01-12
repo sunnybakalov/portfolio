@@ -24,14 +24,15 @@ a:hover {
     text-decoration: none;
   }
 
-nav,
+/* nav,
 .breadcrumb {
-    background-color: #93B7BE;
-}
+    background-color: rgba(127, 184, 201, .5)
+    
+} */
 
-nav {
+/* nav { */
     /* background-color: #93B7BE; */
-    height: 4rem;
+    /* height: 4rem;
     position: fixed;
     width: 100%;
     left: 0;
@@ -39,11 +40,32 @@ nav {
     z-index: 300;
     display: flex;
     justify-content: space-between;
+} */
+.navbar {
+    margin-bottom: 0;
+    background-color: #93B7BE;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar li a {
+    color: #fff !important;
+}
+.navbar-nav li a:hover {
+    color: #F1BF98 !important;
+    background-color: #fff !important;
 }
 
-/* .breadcrumb {
-    background-color
-} */
+.navbar-right {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
 
 
 .modal {

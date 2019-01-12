@@ -24,9 +24,27 @@ a:hover {
     text-decoration: none;
   }
 
-nav {
+nav,
+.breadcrumb {
     background-color: #93B7BE;
 }
+
+nav {
+    /* background-color: #93B7BE; */
+    height: 4rem;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 300;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .breadcrumb {
+    background-color
+} */
+
 
 .modal {
     z-index: 10000;

@@ -42,7 +42,8 @@ a:hover {
 .navbar,
 h3,
 h2,
-#textbox {
+#textbox,
+.card-body {
     font-family: Montserrat, sans-serif;
 }
 
@@ -80,17 +81,42 @@ h2 {
     margin-top: 5%;
     padding: 3%;
     margin-bottom: 20%;
-    /* height: 90%; */
-  }
+}
   
-  #content {
+#content {
     border-top: 2px solid #93B7BE;
     padding-top: 15px;
-  }
+}
   
-   #bigMessage {
-      height: 200px;
-  }
+#bigMessage {
+    height: 200px;
+}
+
+#theCard {
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+.card-body {
+    background-color: rgba(127, 184, 201, .5);
+}
+
+#button {
+    background-color: #93B7BE;
+    outline: none;
+    border: none;
+    opacity: 0.8;
+}
+
+#button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 1;
+    color: #F1BF98;
+    background-color: #fff;
+}
 
 
 .modal {

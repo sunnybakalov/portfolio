@@ -103,17 +103,35 @@ h2 {
   padding: 1%;
 }
 
+#gHub {
+    padding-left: 5%;
+    font-size: 200%;
+}
+
 .card-body {
-  background-color: rgba(127, 184, 201, 0.5);
+  background-color: #93b7be;
   font-weight: bolder;
 }
 
-#button {
-  background-color: #93b7be;
+.card-text {
+    padding-top: 1%;
+}
+
+#gHub {
+  color: #343537;
   outline: none;
   border: none;
   opacity: 0.9;
   font-weight: bold;
+}
+
+#gHub:hover {
+  opacity: 1;
+  color: #f1bf98;
+}
+
+#button {
+    background-color:#343537
 }
 
 #button:hover {
